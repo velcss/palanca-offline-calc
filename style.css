@@ -102,11 +102,38 @@ button {
     .container {
         width: 22em;
     }
+    #get {
+        background-color: seagreen;
+        box-shadow: 0 0 10px 2px seagreen;
+        width: 50%;
+        transition: 0.2s ease;
+    }
+    
+    #reset {
+        background-color: rgb(216, 18, 18);
+        box-shadow: 0 0 10px 2px rgb(216, 18, 18);
+        width: 50%;
+        transition: .2s ease;
+    }
 }
 
 @media (width > 600px) {
     .container {
         width: 30em;
+    }
+
+    #get {
+        background-color: seagreen;
+        box-shadow: 0 0 10px 2px seagreen;
+        width: 100%;
+        transition: 0.2s ease;
+    }
+    
+    #reset {
+        background-color: rgb(216, 18, 18);
+        box-shadow: 0 0 10px 2px rgb(216, 18, 18);
+        width: 100%;
+        transition: .2s ease;
     }
 }
 
@@ -114,5 +141,19 @@ button {
 @media (width > 800px) {
     .container {
         width: 40em;
+    }
+
+    #get {
+        background-color: seagreen;
+        box-shadow: 0 0 10px 2px seagreen;
+        width: 27%;
+        transition: 0.2s ease;
+    }
+    
+    #reset {
+        background-color: rgb(216, 18, 18);
+        box-shadow: 0 0 10px 2px rgb(216, 18, 18);
+        width: 27%;
+        transition: .2s ease;
     }
 }
