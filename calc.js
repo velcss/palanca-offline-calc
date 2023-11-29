@@ -17,4 +17,8 @@ document.getElementById("result").innerHTML = "Result: " + participants;
 
 }
 
+function reloadMe() {
+    location.reload();
+}
+
 
